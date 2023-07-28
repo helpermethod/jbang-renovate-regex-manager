@@ -7,7 +7,7 @@
     {
       "fileMatch": "demo\\.java",
       "matchStrings": [
-        "//DEPS (?<depName>.+?):(?<currentValue>.+)"
+        "//DEPS (?<depName>.+):(?<currentValue>.+)"
       ],
       "datasourceTemplate": "maven"
     }
